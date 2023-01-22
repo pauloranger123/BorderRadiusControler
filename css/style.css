@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+
+
+
+:root {
+    --main-bg-color: #222222;
+    --titulo-color: #FFE8D9;
+    --boxes-color1: #626262;
+    --color-white: #F7F7F7;
+    --oranger-color: #FF9466;
+  }
+
+
+body {
+    background: var(--main-bg-color);
+}
+
+.conteudoPrincipal {
+    margin: auto;
+    text-align: center;
+
+}
+
+li {
+    display: flex;
+    justify-content: end;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 800;    
+    line-height: 60px;
+    top: 105px;
+    color: var(--titulo-color);
+}
+
+h4 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-size: 43px;
+    font-weight: 700;
+    color: var(--titulo-color);
+    line-height: 60px;
+    
+}
+
+.conteudoCentral {
+    padding: 20px;
+}
+
+.cuboParaModelar {
+    width: 100%;
+    height: 286px;
+    margin: 10px 0;
+    background: var(--oranger-color);
+}
+
+.informacoesDaBorda {
+    background: var(--boxes-color1);
+    margin: auto;
+    padding: 20px;
+    border-radius: 6px;
+   
+}
+
+.informacoesDaBorda__Texto {
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;  
+    text-align: center;     
+    
+}
+
+input {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #9E9E9E;
+    border-radius: 6px;
+    top: 41.67%;
+    left: 0%;
+    right: 0%;
+
+}

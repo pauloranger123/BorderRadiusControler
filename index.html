@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Desafio do DevSoltinho</title>
+</head>
+
+<body>
+
+    <header>
+        <li><a href="#"><img src="OctocatCorner.png" alt=""></a></li>
+    </header>
+
+    <main class="conteudoPrincipal">
+
+        
+        <div class="titulo1">
+        <h3>[Previewer]</h2>
+        </div>
+        
+
+        <div class="titulo2">
+            <h4>border-radius:</h3>
+        </div>
+
+        <!--
+        <div class="label1">
+            <label for="input">Label</label>
+            <input type="text">
+        </div>
+        -->
+
+        <section class="conteudoCentral">
+            <div class="informacoesDaBorda">
+                <p class="informacoesDaBorda__Texto" data-exibir-numeros>border-radius:</p>
+            </div>
+            <div class="controlarBordasTop">
+                <div class="colunas"><label for="input" >Top Left</label><input type="number" value="0" max="1000" border="topLeft"></div>                
+                <div class="colunas"><label for="input">Top Right</label><input type="number" value="0" max="1000" border="topRight"></div>
+            </div>
+            <div class="cuboParaModelar"></div>
+            <div class="controlarBordasBottom">
+                <div class="colunas"><label for="input">Bottom Left</label><input type="number" value="0" max="1000" border="BottomLeft"></div>
+                <div class="colunas"><label for="input">Bottom Right</label><input type="number" value="0" max="1000" border="BottomRight"></div>
+
+            </div>
+            <img src="/OctocatCorner.png" alt="">
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
